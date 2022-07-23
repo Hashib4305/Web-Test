@@ -1,0 +1,136 @@
+body{
+	margin: 0px;
+	font-family:'Montserrat', sans-serif;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400&family=Montserrat:wght@100&family=Roboto:wght@100&display=swap');
+div, p,span{
+	margin-top: 0px;
+}
+header{
+	background: ;
+	background-image: url("Images/img1.jpg");
+	background-size: 1500px;
+	height: 300px;
+	width: 100%;
+	background-repeat: repeat-x;
+	
+
+}
+#logo{
+	font-size: 48px;
+	padding-top: 50px;
+	margin-left: 10px;
+	color: white;
+  animation-name: logo;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+	font-family:'Cormorant SC', sans-serif;
+;
+}
+@keyframes logo{
+	0%{
+		color: white;
+	}
+	25%{
+		color: #a1ecff;
+	}
+	50%{
+		color: #d09eff;
+	}
+	75%{
+		color: #c4ffab;
+	}
+	100%{
+		color: white;
+	}
+}
+.pp{
+	float: right;
+	padding-top: 20px;
+}
+
+.navigation{
+	margin-left: 6px;
+	margin-right:6px;
+	font-size: 16px;
+	color:#ad1d98;
+	font-weight: bolder;
+	transition-duration: 2s,1s;
+	animation-name: nav;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+@keyframes nav{
+	0%{
+		color: red;
+	}
+	25%{
+		color: violet;
+	}
+	50%{
+		color: pink;
+	}
+	75%{
+		color: chocolate;
+	}
+	100%{
+		color: red;
+	}
+}
+.navigation:hover{
+	text-shadow: 2px 2px black;
+}
+
+/*Blog time*/
+#blog{
+	border: solid black 3px;
+	height: 1000px;
+	margin-top: 3px;
+}
+footer{
+	margin-top: 10px;
+   background: linear-gradient(to bottom right, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+   animation-name: bruh;
+   animation-duration: 13s;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease;
+   background-size: 400% 400%;
+   height: 100px;
+}
+@keyframes bruh{
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+#foot{
+	text-align: center;
+	padding-top: 40px;
+	font-size: 30px;
+	font-weight: bolder;
+	color: white;
+	 animation-name: foot-clr;
+  animation-duration: 13s;
+  animation-iteration-count: infinite;
+
+}
+@keyframes foot-clr {
+  0%{
+  	color: white;
+  }
+  50%{
+  	color: violet;
+  }
+  100%{
+  	color: white;
+  }
+}
+
+
+
